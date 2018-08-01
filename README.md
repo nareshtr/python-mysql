@@ -1,5 +1,4 @@
 # Multi-Container Pods in Kubernetes
-Simple tutorial to demonstrate the concept of packaging multiple containers into a single pod. 
 * Web Pod has a Python Flask container and a Redis container
 * DB Pod has a MySQL container
 * When data is retrieved through the Python REST API, it first checks within Redis cache before accessing MySQL
